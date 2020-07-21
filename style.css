@@ -1,0 +1,60 @@
+body {
+    font-family: calibri;
+    padding-top: 0;
+    margin: 0;
+}
+h1 a {
+    color: #447890;
+    text-decoration: none;
+}
+h1 {
+    color: #447890; /*a tag 추가 후 안먹혀서 h1 a에 지정함*/
+    font: 50px verdana;
+    font-weight: 1000;
+    text-shadow: 1px 1px #7f7878;
+    text-align: center;
+    background-image: url(sky4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: solid darkgray 5px;
+    margin-top: 0;           
+}
+#grid {
+    display:grid;
+    grid-template-columns: 170px 1fr;
+    padding-bottom: 42%; 
+    border-bottom: solid darkgray 5px;
+}
+#list {
+    font: 20px calibri;
+    font-weight: 1000;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 18px;
+}
+#list a {
+    color: #ffa5b5;
+    text-shadow: 1px 1px lightgray;
+    text-decoration: none;
+    display:block;
+    background-color: #fff8bd;;
+    padding: 5px;
+    margin: 0px;
+}
+#contents {
+    margin-top: 0px;
+    margin-left: 30px;
+}
+#contents h2 {
+    margin-top: 0px
+}
+#bottom {
+    color: #675e5e;
+    font-weight: 1000;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
